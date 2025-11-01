@@ -72,8 +72,7 @@ You can switch databases simply by changing these values — no code changes nee
 1️⃣ Extract Schema Metadata
 Endpoint:
 
-pgsql
-Copy code
+
 GET /api/schema/
 Description:
 Fetches all database metadata such as tables, columns, primary keys, foreign keys, and indexes.
@@ -81,7 +80,6 @@ Fetches all database metadata such as tables, columns, primary keys, foreign key
 Sample Response:
 
 json
-Copy code
 {
   "schemaName": "mydb",
   "tables": {
@@ -137,7 +135,6 @@ Database configured in crawler-config.json
 
 Steps
 bash
-Copy code
 # Clone this repository
 git clone https://github.com/<your-username>/mysql-schema-crawler.git
 
@@ -149,10 +146,7 @@ mvn spring-boot:run
 🔍 Testing the APIs
 You can test using Postman or curl:
 
-bash
-Copy code
-# Extract schema
-GET http://localhost:8080/api/schema/
+<pre> ```bash # Extract schema GET http://localhost:8080/api/schema/ ``` </pre>
 
 # Generate models
 POST http://localhost:8080/api/schema/generate
@@ -182,8 +176,6 @@ Sample API outputs
 This project is developed as part of an assignment for Vistora.
 All rights reserved © 2025 Vishal Palve.
 
-pgsql
-Copy code
 
 ---
 
