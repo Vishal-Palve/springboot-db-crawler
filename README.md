@@ -139,10 +139,10 @@ Steps
 bash
 Copy code
 # Clone this repository
-git clone https://github.com/<your-username>/mysql-db-crawler.git
+git clone https://github.com/<your-username>/mysql-schema-crawler.git
 
 # Navigate into the project
-cd mysql-db-crawler
+cd mysql-schema-crawler
 
 # Build and run the project
 mvn spring-boot:run
@@ -163,7 +163,6 @@ Copy code
 ✅ Connected to database: mydb
 ✅ Extracted 1 tables
 ✅ Generated 1 model class: com.example.models.Stud
-
 📘 Documentation
 The documentation explains:
 
@@ -183,15 +182,12 @@ Sample API outputs
 This project is developed as part of an assignment for Vistora.
 All rights reserved © 2025 Vishal Palve.
 
-yaml
+pgsql
 Copy code
 
 ---
 
-Would you like me to include a short **“Setup Verification”** section (with how to test DB connection before running the crawler) and **screenshots placeholders** for GitHub visuals? That makes the repo look much more professional.
+✅ This version will render cleanly on GitHub —  
+no red, no broken sections, and all code blocks will format correctly.  
 
-
-
-
-
-
+Would you like me to also include a **“Setup Verification”** section next (to test DB connectivity b
