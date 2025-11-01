@@ -84,7 +84,7 @@ Fetches all database metadata such as tables, columns, primary keys, foreign key
 **Sample Response:**
 ```json
 {
-  "schemaName": "mydb",
+  "schemaName": "first",
   "tables": {
     "stud": {
       "columns": {
@@ -171,7 +171,7 @@ POST http://localhost:8080/api/schema/generate
 
 ```
 ✅ Loaded configuration from: src/main/resources/crawler-config.json
-✅ Connected to database: mydb
+✅ Connected to database: first
 ✅ Extracted 1 tables
 ✅ Generated 1 model class: com.example.models.Stud
 ```
